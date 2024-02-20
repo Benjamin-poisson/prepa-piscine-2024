@@ -1,2 +1,28 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.out
+
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+
+# OS generated files #
+######################
 .DS_Store
-mywork.c-
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
