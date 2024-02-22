@@ -1,42 +1,50 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
+/*   ft_print_combn.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/20 15:36:37 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/02/22 12:08:13 by bpoisson         ###   ########.fr       */
+/*   Created: 2024/02/22 12:27:03 by bpoisson          #+#    #+#             */
+/*   Updated: 2024/02/22 13:02:14 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <stdio.h>
 
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
-void	ft_print_comb2(void)
+void	ft_print_tab_int(int *tab, int n)
 {
-	int	first;
-	int	second;
+	int	i;
 
-	first = 0;
-	while (first <= 98)
+	i = 0;
+	while (i != n)
 	{
-		second = first + 1;
-		while (second <= 99)
-		{
-			ft_putchar((first / 10) + 48);
-			ft_putchar((first % 10) + 48);
-			write(1, " ", 1);
-			ft_putchar((second / 10) + 48);
-			ft_putchar((second % 10) + 48);
-			if (first != 98 || second != 99)
-				write(1, ", ", 2);
-			second++;
-		}
-		first++;
+		ft_putchar(tab[i + 48]);
+		i++;
 	}
+}
+
+void	ft_print_combn(int n)
+{
+	int	tab[9];
+	int	i;
+
+	i = 0;
+	while (i <= n)
+	{
+		tab[i] = i;
+		i++;
+	}
+	ft_print_tab_int(tab, n);
+}
+
+int	main(void)
+{
+	ft_print_combn(3);
 }

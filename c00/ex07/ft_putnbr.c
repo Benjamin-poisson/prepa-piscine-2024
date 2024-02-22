@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/20 15:36:37 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/02/22 12:08:13 by bpoisson         ###   ########.fr       */
+/*   Created: 2024/02/22 12:08:52 by bpoisson          #+#    #+#             */
+/*   Updated: 2024/02/22 12:23:43 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,26 +17,23 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_print_comb2(void)
+void	ft_putnbr(int nb)
 {
-	int	first;
-	int	second;
+	long	nbr;
 
-	first = 0;
-	while (first <= 98)
+	nbr = nb;
+	if (nbr < 0)
 	{
-		second = first + 1;
-		while (second <= 99)
-		{
-			ft_putchar((first / 10) + 48);
-			ft_putchar((first % 10) + 48);
-			write(1, " ", 1);
-			ft_putchar((second / 10) + 48);
-			ft_putchar((second % 10) + 48);
-			if (first != 98 || second != 99)
-				write(1, ", ", 2);
-			second++;
-		}
-		first++;
+		ft_putchar('-');
+		nbr = -nbr;
 	}
+	if (nbr > 99)
+	{
+		ft_putnbr(nbr / 10);
+	}
+	else if (nbr != 0)
+	{
+		ft_putchar((nbr / 10) + 48);
+	}
+	ft_putchar((nbr % 10) + 48);
 }
