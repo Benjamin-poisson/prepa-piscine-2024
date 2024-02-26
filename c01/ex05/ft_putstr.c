@@ -1,16 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ft.c                                            :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/24 12:05:17 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/02/26 19:10:09 by bpoisson         ###   ########.fr       */
+/*   Created: 2024/02/26 20:12:10 by bpoisson          #+#    #+#             */
+/*   Updated: 2024/02/26 20:25:37 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_ft(int *nbr)
+#include <unistd.h>
+
+void	ft_putchar(char c)
 {
-	*nbr = 42;
+	write(1, &c, 1);
+}
+
+void	ft_putstr(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		ft_putchar(str[i]);
+		i++;
+	}
 }
