@@ -1,16 +1,14 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/26 20:26:49 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/02/27 17:16:12 by bpoisson         ###   ########.fr       */
+/*   Created: 2024/02/27 16:40:58 by bpoisson          #+#    #+#             */
+/*   Updated: 2024/02/27 17:43:40 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_strlen(char *str)
 {
@@ -24,8 +22,18 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-int main(void)
+char	*ft_strcpy(char *dest, char *src)
 {
-	char str[12] = "Hello World!";
-	printf("%d\n", ft_strlen(str));
+	int	i;
+	int	size;
+
+	i = 0;
+	size = ft_strlen(src);
+	while (i < size)
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	dest[i] = '\0';
+	return (dest);
 }
