@@ -6,7 +6,7 @@
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/29 23:32:15 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/03/01 01:15:42 by bpoisson         ###   ########.fr       */
+/*   Updated: 2024/03/01 01:25:43 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,22 +28,13 @@ int	ft_char_is_printable(char c)
 
 void	ft_print_char_to_hexa(char c)
 {
-	char	tab[16];
+	char	*tab;
 	int		i;
 	int		first;
 
 	i = 0;
 	first = 0;
-	while (i <= 9)
-	{
-		tab[i] = i + 48;
-		i++;
-	}
-	while (i <= 15)
-	{
-		tab[i] = i + 87;
-		i++;
-	}
+	tab = "0123456789abcdef";
 	while (c > 16)
 	{
 		first++;
