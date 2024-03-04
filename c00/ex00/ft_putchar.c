@@ -6,7 +6,7 @@
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/20 13:43:59 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/02/21 14:33:03 by bpoisson         ###   ########.fr       */
+/*   Updated: 2024/03/04 15:47:47 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,4 @@
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
-}
-
-int main()
-{
-	ft_putchar('a');
 }
