@@ -33,174 +33,290 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 - 🇫🇷 Se repo est mis a jours tous les jours pensez a `git pull`
 ----
 ## Exercises
-### Shell 00  ✅66%
-- ex00 ✅100%
-- ex01 ✅100%
-- ex02 ✅100%
-- ex03 ✅100%
-- ex04 ✅100%
-- ex05 ✅100%
-- ex06 ❌NA%
-- ex07 ❌NA%
-- ex08 ❌NA%
-- ex09 ❌NA%
-----
-### Shell 01 ✅70%
-- ex00 ✅100%
-- ex01 ✅100%
-- ex02 ✅100%
-- ex03 ✅100%
-- ex04 ✅100%
-- ex05 ✅100%
-- ex06 ✅100%
-- ex07 ❌NA%
-- ex08 ❌NA%
-----
-### C 00 ✅88%
-- ex00 ✅100%
-- ex01 ✅100%
-- ex02 ✅100%
-- ex03 ✅100%
-- ex04 ✅100%
-- ex05 ✅100%
-- ex06 ✅100%
-- ex07 ✅100%
-- ex08 ❌0%
-----
-### C 01 ✅100%
-- ex00 ✅100%
-- ex01 ✅100%
-- ex02 ✅100%
-- ex03 ✅100%
-- ex04 ✅100%
-- ex05 ✅100%
-- ex06 ✅100%
-- ex07 ✅100%
-- ex08 ✅100%
-----
-### C 02 ✅92%
-- ex00 ✅100%
-- ex01 ✅100%
-- ex02 ✅100%
-- ex03 ✅100%
-- ex04 ✅100%
-- ex05 ✅100%
-- ex06 ✅100%
-- ex07 ✅100%
-- ex08 ✅100%
-- ex09 ✅100%
-- ex10 ✅100%
-- ex11 ✅100%
-- ex12 ❌NA%
-----
-### C 03 ✅83%
-- ex00 ✅100%
-- ex01 ✅100%
-- ex02 ✅100%
-- ex03 ✅100%
-- ex04 ✅100%
-- ex05 ❌NA%
-----
-### C 04 ❌NA%
-- ex00 ❌NA%
-- ex01 ❌NA%
-- ex02 ❌NA%
-- ex03 ❌NA%
-- ex04 ❌NA%
-- ex05 ❌NA%
-----
-### C 05 ❌NA%
-- ex00 ❌NA%
-- ex01 ❌NA%
-- ex02 ❌NA%
-- ex03 ❌NA%
-- ex04 ❌NA%
-- ex05 ❌NA%
-- ex06 ❌NA%
-- ex07 ❌NA%
-- ex08 ❌NA%
-----
-### C 06 ❌NA%
-- ex00 ❌NA%
-- ex01 ❌NA%
-- ex02 ❌NA%
-- ex03 ❌NA%
-----
-### C 07 ❌NA%
-- ex00 ❌NA%
-- ex01 ❌NA%
-- ex02 ❌NA%
-- ex03 ❌NA%
-- ex04 ❌NA%
-- ex05 ❌NA%
-----
-### C 08 ❌NA%
-- ex00 ❌NA%
-- ex01 ❌NA%
-- ex02 ❌NA%
-- ex03 ❌NA%
-- ex04 ❌NA%
-- ex05 ❌NA%
-----
-### C 09 ❌NA%
-- ex00 ❌NA%
-- ex01 ❌NA%
-- ex02 ❌NA%
-----
-### C 10 ❌NA%
-- ex00 ❌NA%
-- ex01 ❌NA%
-- ex02 ❌NA%
-- ex03 ❌NA%
-----
-### C 11 ❌NA%
-- ex00 ❌NA%
-- ex01 ❌NA%
-- ex02 ❌NA%
-- ex03 ❌NA%
-- ex04 ❌NA%
-- ex05 ❌NA%
-- ex06 ❌NA%
-- ex07 ❌NA%
-----
-### C 12 ❌NA%
-- ex00 ❌NA%
-- ex01 ❌NA%
-- ex02 ❌NA%
-- ex03 ❌NA%
-- ex04 ❌NA%
-- ex05 ❌NA%
-- ex06 ❌NA%
-- ex07 ❌NA%
-- ex08 ❌NA%
-- ex09 ❌NA%
-- ex10 ❌NA%
-- ex11 ❌NA%
-- ex12 ❌NA%
-- ex13 ❌NA%
-- ex14 ❌NA%
-- ex15 ❌NA%
-- ex16 ❌NA%
-- ex17 ❌NA%
-----
-### C 13 ❌NA%
-- ex00 ❌NA%
-- ex01 ❌NA%
-- ex02 ❌NA%
-- ex03 ❌NA%
-- ex04 ❌NA%
-- ex05 ❌NA%
-- ex06 ❌NA%
-- ex07 ❌NA%
-----
-### Rush
-- Rush 00 ✅104%
-- Rush 01 ❌NA%
-- Rush 02 ❌NA%
-----
-### BSQ ❌NA%
+<div>
+  <table>
+    <tr>
+      <h1>Shell 00 ✅66%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>✅100%</td>
+      <td>ex01 <br>✅100%</td>
+      <td>ex02 <br>✅100%</td>
+      <td>ex03 <br>✅100%</td>
+      <td>ex04 <br>✅100%</td>
+      <td>ex05 <br>✅100%</td>
+      <td>ex06 <br>❌NA%</td>
+      <td>ex07 <br>❌NA%</td>
+      <td>ex08 <br>❌NA%</td>
+      <td>ex09 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>Shell 01 ✅70%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>✅100%</td>
+      <td>ex01 <br>✅100%</td>
+      <td>ex02 <br>✅100%</td>
+      <td>ex03 <br>✅100%</td>
+      <td>ex04 <br>✅100%</td>
+      <td>ex05 <br>✅100%</td>
+      <td>ex06 <br>✅100%</td>
+      <td>ex07 <br>❌NA%</td>
+      <td>ex08 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 00 ✅88%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>✅100%</td>
+      <td>ex01 <br>✅100%</td>
+      <td>ex02 <br>✅100%</td>
+      <td>ex03 <br>✅100%</td>
+      <td>ex04 <br>✅100%</td>
+      <td>ex05 <br>✅100%</td>
+      <td>ex06 <br>✅100%</td>
+      <td>ex07 <br>✅100%</td>
+      <td>ex08 <br>❌0%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 01 ✅100%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>✅100%</td>
+      <td>ex01 <br>✅100%</td>
+      <td>ex02 <br>✅100%</td>
+      <td>ex03 <br>✅100%</td>
+      <td>ex04 <br>✅100%</td>
+      <td>ex05 <br>✅100%</td>
+      <td>ex06 <br>✅100%</td>
+      <td>ex07 <br>✅100%</td>
+      <td>ex08 <br>✅100%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 02 ✅92%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 ✅100%</td>
+      <td>ex01 ✅100%</td>
+      <td>ex02 ✅100%</td>
+      <td>ex03 ✅100%</td>
+      <td>ex04 ✅100%</td>
+      <td>ex05 ✅100%</td>
+      <td>ex06 ✅100%</td>
+      <td>ex07 ✅100%</td>
+      <td>ex08 ✅100%</td>
+      <td>ex09 ✅100%</td>
+      <td>ex10 ✅100%</td>
+    </tr>
+    <tr>
+      <td>ex11 ✅100%</td>
+      <td>ex12 ❌NA%</td> 
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 03 ✅83%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>✅100%</td>
+      <td>ex01 <br>✅100%</td>
+      <td>ex02 <br>✅100%</td>
+      <td>ex03 <br>✅100%</td>
+      <td>ex04 <br>✅100%</td>
+      <td>ex05 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 04 ❌NA%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>❌NA%</td>
+      <td>ex01 <br>❌NA%</td>
+      <td>ex02 <br>❌NA%</td>
+      <td>ex03 <br>❌NA%</td>
+      <td>ex04 <br>❌NA%</td>
+      <td>ex05 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 05 ❌NA%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>❌NA%</td>
+      <td>ex01 <br>❌NA%</td>
+      <td>ex02 <br>❌NA%</td>
+      <td>ex03 <br>❌NA%</td>
+      <td>ex04 <br>❌NA%</td>
+      <td>ex05 <br>❌NA%</td>
+      <td>ex06 <br>❌NA%</td>
+      <td>ex07 <br>❌NA%</td>
+      <td>ex08 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 06 ❌NA%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>❌NA%</td>
+      <td>ex01 <br>❌NA%</td>
+      <td>ex02 <br>❌NA%</td>
+      <td>ex03 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 07 ❌NA%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>❌NA%</td>
+      <td>ex01 <br>❌NA%</td>
+      <td>ex02 <br>❌NA%</td>
+      <td>ex03 <br>❌NA%</td>
+      <td>ex04 <br>❌NA%</td>
+      <td>ex05 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 08 ❌NA%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>❌NA%</td>
+      <td>ex01 <br>❌NA%</td>
+      <td>ex02 <br>❌NA%</td>
+      <td>ex03 <br>❌NA%</td>
+      <td>ex04 <br>❌NA%</td>
+      <td>ex05 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 09 ❌NA%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>❌NA%</td>
+      <td>ex01 <br>❌NA%</td>
+      <td>ex02 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 10 ❌NA%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>❌NA%</td>
+      <td>ex01 <br>❌NA%</td>
+      <td>ex02 <br>❌NA%</td>
+      <td>ex03 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 11 ❌NA%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>❌NA%</td>
+      <td>ex01 <br>❌NA%</td>
+      <td>ex02 <br>❌NA%</td>
+      <td>ex03 <br>❌NA%</td>
+      <td>ex04 <br>❌NA%</td>
+      <td>ex05 <br>❌NA%</td>
+      <td>ex06 <br>❌NA%</td>
+      <td>ex07 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 12 ❌NA%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 ❌NA%</td>
+      <td>ex01 ❌NA%</td>
+      <td>ex02 ❌NA%</td>
+      <td>ex03 ❌NA%</td>
+      <td>ex04 ❌NA%</td>
+      <td>ex05 ❌NA%</td>
+      <td>ex06 ❌NA%</td>
+      <td>ex07 ❌NA%</td>
+      <td>ex08 ❌NA%</td>
+      <td>ex09 ❌NA%</td>
+      <td>ex10 ❌NA%</td>
+    </tr>
+    <tr>
+      <td>ex11 ❌NA%</td>
+      <td>ex12 ❌NA%</td>
+      <td>ex13 ❌NA%</td>
+      <td>ex14 ❌NA%</td>
+      <td>ex15 ❌NA%</td>
+      <td>ex16 ❌NA%</td>
+      <td>ex17 ❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>c 13 ❌NA%</h1></p>
+    </tr>
+    <tr>
+      <td>ex00 <br>❌NA%</td>
+      <td>ex01 <br>❌NA%</td>
+      <td>ex02 <br>❌NA%</td>
+      <td>ex03 <br>❌NA%</td>
+      <td>ex04 <br>❌NA%</td>
+      <td>ex05 <br>❌NA%</td>
+      <td>ex06 <br>❌NA%</td>
+      <td>ex07 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>Rush</h1></p>
+    </tr>
+    <tr>
+      <td>Rush 00 <br>✅104%</td>
+      <td>Rush 01 <br>❌NA%</td>
+      <td>Rush 02 <br>❌NA%</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <tr>
+      <h1>BSQ</h1></p>
+    </tr>
+    <tr>
+      <td>❌NA%</td>
+    </tr>
+  </table>
+</div>
 
 ---------------
+
 #### Legend
 - ✅      [Pass]
 - ❌0%    [Not pass]
