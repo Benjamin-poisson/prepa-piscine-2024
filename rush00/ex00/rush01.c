@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   rush01.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dak <dak@student.42.fr>                    +#+  +:+       +#+        */
+/*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 17:19:35 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/03/04 16:12:00 by dak              ###   ########.fr       */
+/*   Updated: 2024/03/04 17:29:31 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include "./ft_putchar.c"
 
 void	ft_putchar(char c);
 

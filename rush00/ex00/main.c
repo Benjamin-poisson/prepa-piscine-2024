@@ -6,12 +6,11 @@
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 17:19:30 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/03/04 16:41:35 by bpoisson         ###   ########.fr       */
+/*   Updated: 2024/03/04 17:29:03 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include "./rush04.c"
 
 void	rush(int x, int y);
 
