@@ -1,6 +1,20 @@
+<p align="center">
+  <img src="https://zupimages.net/up/22/37/5q09.png" />
+</p>
 
 # 🏊‍♂️PREPA PISCINE 2024🏊‍♂️
 Piscine C 42Perpignan
+
+## :pushpin: Useful links
+
+* [`French manual`](http://manpagesfr.free.fr/consulter.html)	
+* [`Stud42`](https://signin.intra.42.fr/users/sign_in)
+* [`Piscine 42 Vmontagn`](https://42-beta.vmontagn.fr/login)
+* [`42 Header`](https://github.com/42Paris/42header)
+* [`42 Norminette`](https://github.com/42School/norminette)
+* [`Mini moulinette`](https://github.com/khairulhaaziq/mini-moulinette)
+* [`Piscine Semi auto-correct`](https://github.com/Buom01/semi-auto-correct-42)
+* [`Learn programming in 10min`](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 
 ----
 ## Features
 - Subject ✅
