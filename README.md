@@ -136,21 +136,21 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
       <td>ex02 <br>✅100%</td>
       <td>ex03 <br>✅100%</td>
       <td>ex04 <br>✅100%</td>
-      <td>ex05 <br>❌NA%</td>
+      <td>ex05 <br>⏳NA%</td>
     </tr>
   </table>
 <br>
   <table>
     <tr>
-      <h1>c 04 ✅50%</h1></p>
+      <h1>c 04 ✅83%</h1></p>
     </tr>
     <tr>
       <td>ex00 <br>✅100%</td>
       <td>ex01 <br>✅100%</td>
       <td>ex02 <br>✅100%</td>
-      <td>ex03 <br>❌0%</td>
-      <td>ex04 <br>❌NA%</td>
-      <td>ex05 <br>❌NA%</td>
+      <td>ex03 <br>✅100%</td>
+      <td>ex04 <br>✅100%</td>
+      <td>ex05 <br>❌0%</td>
     </tr>
   </table>
 <br>
