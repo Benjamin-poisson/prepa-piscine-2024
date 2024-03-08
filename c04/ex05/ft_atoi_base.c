@@ -6,7 +6,7 @@
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/07 19:37:38 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/03/07 20:12:17 by bpoisson         ###   ########.fr       */
+/*   Updated: 2024/03/07 22:50:15 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ int	ft_atoi_base(char *str, char *base)
 	{
 		if (check_if_in_base(*str, base) == 0)
 			break;
-		result = (result * size) + ()
+		result = result + *str % size;
 	}
 	if (neg % 2)
 		return (-result);
