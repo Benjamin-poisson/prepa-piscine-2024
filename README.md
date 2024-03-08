@@ -9,7 +9,6 @@ Piscine C 42Perpignan
 
 * [`French manual`](http://manpagesfr.free.fr/consulter.html)	
 * [`Stud42`](https://signin.intra.42.fr/users/sign_in)
-* [`Piscine 42 Vmontagn`](https://42-beta.vmontagn.fr/login)
 * [`42 Header`](https://github.com/42Paris/42header)
 * [`42 Norminette`](https://github.com/42School/norminette)
 * [`Mini moulinette`](https://github.com/khairulhaaziq/mini-moulinette)
@@ -325,9 +324,10 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 ----
 
 ### Cours
-- Git [Utilisation]⏳
+- Git [Interet, Utilisation]✅
 - Pointeur[Utilisation, Logique, str, main] ⏳
-- Math [Iterative, Reursive, Factoriel, Puisance, Nombre Premier]⏳
+- Math [Iterative, Reursive, Factoriel, Puisance, Nombre Premier]❌
+- Malloc [Interet, Utilisation] ❌
 ----
 
 ## Contributeur
