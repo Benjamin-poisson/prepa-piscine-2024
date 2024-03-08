@@ -173,13 +173,13 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 <br>
   <table>
     <tr>
-      <h1>c 06 ❌NA%</h1></p>
+      <h1>c 06 ✅100%</h1></p>
     </tr>
     <tr>
-      <td>ex00 <br>❌NA%</td>
-      <td>ex01 <br>❌NA%</td>
-      <td>ex02 <br>❌NA%</td>
-      <td>ex03 <br>❌NA%</td>
+      <td>ex00 <br>✅100%</td>
+      <td>ex01 <br>✅100%</td>
+      <td>ex02 <br>✅100%</td>
+      <td>ex03 <br>✅100%</td>
     </tr>
   </table>
 <br>
@@ -323,6 +323,13 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 - ❌NA%   [Not done]
 - ⛔-42%  [Forbiden fonction / Cheat]
 ----
+
+### Cours
+- Git [Utilisation]⏳
+- Pointeur[Utilisation, Logique, str, main] ⏳
+- Math [Iterative, Reursive, Factoriel, Puisance, Nombre Premier]⏳
+----
+
 ## Contributeur
 - Sebastien "Dak" Roger [Rush 00]
 - Olivier "Noto" Radet [Corrector]

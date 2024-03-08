@@ -1,29 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_program_name.c                            :+:      :+:    :+:   */
+/*   ft_print_params.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/08 02:10:49 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/03/08 14:10:11 by bpoisson         ###   ########.fr       */
+/*   Created: 2024/03/08 14:11:09 by bpoisson          #+#    #+#             */
+/*   Updated: 2024/03/08 14:28:22 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	main(int argc, char **argv)
+void	ft_putstr(char *str)
 {
-	char	*name;
-
-	name = argv[0];
-	if (argc < 1)
-		return (1);
-	while (*name)
+	while (*str)
 	{
-		write(1, &*name, 1);
-		name++;
+		write(1, &*str, 1);
+		str++;
 	}
 	write(1, "\n", 1);
+}
+
+int	main(int ac, char **av)
+{
+	int	i;
+
+	i = 1;
+	if (ac < 2)
+		return (1);
+	while (i < ac)
+		ft_putstr(av[i++]);
 	return (0);
 }
