@@ -11,7 +11,7 @@ Piscine C 42Perpignan
 * [`Stud42`](https://signin.intra.42.fr/users/sign_in)
 * [`42 Header`](https://github.com/42Paris/42header)
 * [`42 Norminette`](https://github.com/42School/norminette)
-* [`Mini moulinette`](https://github.com/khairulhaaziq/mini-moulinette)
+* [`Mini moulinette (C07 ex02 max)`](https://github.com/khairulhaaziq/mini-moulinette)
 * [`Piscine Semi auto-correct`](https://github.com/Buom01/semi-auto-correct-42)
 * [`Learn programming in 10min`](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 
 ----
@@ -189,7 +189,7 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
     <tr>
       <td>ex00 <br>✅100%</td>
       <td>ex01 <br>✅100%</td>
-      <td>ex02 <br>❌0%</td>
+      <td>ex02 <br>✅100%</td>
       <td>ex03 <br>❌NA%</td>
       <td>ex04 <br>❌NA%</td>
       <td>ex05 <br>❌NA%</td>
@@ -327,7 +327,7 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 - Git [Interet, Utilisation]✅
 - Pointeur[Utilisation, Logique, str, main] ⏳
 - Math [Iterative, Reursive, Factoriel, Puisance, Nombre Premier]❌
-- Malloc [Interet, Utilisation] ❌
+- Pointeur Avancer[Malloc, free, tableau dans tableau] ❌
 ----
 
 ## Contributeur
