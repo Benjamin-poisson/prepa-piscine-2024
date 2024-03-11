@@ -184,13 +184,13 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 <br>
   <table>
     <tr>
-      <h1>c 07 ❌33%</h1></p>
+      <h1>c 07 ✅66%</h1></p>
     </tr>
     <tr>
       <td>ex00 <br>✅100%</td>
       <td>ex01 <br>✅100%</td>
       <td>ex02 <br>✅100%</td>
-      <td>ex03 <br>❌NA%</td>
+      <td>ex03 <br>✅100%</td>
       <td>ex04 <br>❌NA%</td>
       <td>ex05 <br>❌NA%</td>
     </tr>
@@ -317,7 +317,7 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 ---------------
 
 #### Legend
-- ✅      [Pass]
+- ✅100%  [Pass]
 - ❌0%    [Not pass]
 - ❌NA%   [Not done]
 - ⛔-42%  [Forbiden fonction / Cheat]

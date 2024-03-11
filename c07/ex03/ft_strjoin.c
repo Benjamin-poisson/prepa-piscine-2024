@@ -6,7 +6,7 @@
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/09 15:52:55 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/03/09 17:48:39 by bpoisson         ###   ########.fr       */
+/*   Updated: 2024/03/12 00:44:59 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,54 +40,51 @@ int	ft_strlens(char **str, int size)
 	return (i + j);
 }
 
-char	*ft_strjoin(int size, char **strs, char *sep)
+char *ft_join(int size, char **strs, char *sep, char *dest)
 {
-	int		i;
-	int		j;
-	int		k;
-	char	*dest;
-	int		total_size;
+	int	i;
+	int	j;
+	int	k;
 
-	k = 0;
-	i = 0;
 	j = 0;
-	total_size = 0;
-	if (size <= 0)
-	{
-		dest = malloc(0);
-		return(dest);
-	}
-	while (i < size)
-	{
-		total_size += ft_strlen(strs[i]) + ft_strlen(sep);
-		i++;
-	}
-	printf("Taille memoire = %d\n", total_size);
-	dest = malloc(sizeof(char) * total_size);
-	if (dest == NULL)
-	{
-		printf("ERROR MALLOC");
-		return (NULL);
-	}
+	k = 0;
 	while (k < size)
 	{
 		i = 0;
 		while (strs[k][i])
 		{
 			dest[j] = strs[k][i];
-			i++;
 			j++;
+			i++;
 		}
 		i = 0;
 		while (sep[i] && k != size - 1)
 		{
 			dest[j] = sep[i];
-		i++;
-		j++;
+			i++;
+			j++;
 		}
 		k++;
 	}
-	printf("\n");
+	return (dest);
+}
+
+char	*ft_strjoin(int size, char **strs, char *sep)
+{
+	int		i;
+	char	*dest;
+	int		total_size;
+
+	i = -1;
+	total_size = 0;
+	if (size <= 0)
+		return (dest = malloc(0));
+	while (i++ < size - 1)
+		total_size += ft_strlen(strs[i]) + ft_strlen(sep);
+	dest = malloc(sizeof(char) * total_size);
+	if (dest == NULL)
+		return (NULL);
+	dest = ft_join(size, strs, sep, dest);
 	return (dest);
 }
 
