@@ -11,6 +11,7 @@ Piscine C 42Perpignan
 * [`Stud42`](https://signin.intra.42.fr/users/sign_in)
 * [`42 Header`](https://github.com/42Paris/42header)
 * [`42 Norminette`](https://github.com/42School/norminette)
+* [`42 Grademe`] (https://grademe.fr/)
 * [`Mini moulinette (C07 ex02 max)`](https://github.com/khairulhaaziq/mini-moulinette)
 * [`Piscine Semi auto-correct`](https://github.com/Buom01/semi-auto-correct-42)
 * [`Learn programming in 10min`](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 
@@ -198,13 +199,13 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 <br>
   <table>
     <tr>
-      <h1>c 08 ❌NA%</h1></p>
+      <h1>c 08 ✅66%</h1></p>
     </tr>
     <tr>
-      <td>ex00 <br>❌NA%</td>
-      <td>ex01 <br>❌NA%</td>
-      <td>ex02 <br>❌NA%</td>
-      <td>ex03 <br>❌NA%</td>
+      <td>ex00 <br>✅100%</td>
+      <td>ex01 <br>✅100%</td>
+      <td>ex02 <br>✅100%</td>
+      <td>ex03 <br>✅100%</td>
       <td>ex04 <br>❌NA%</td>
       <td>ex05 <br>❌NA%</td>
     </tr>
@@ -212,11 +213,11 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 <br>
   <table>
     <tr>
-      <h1>c 09 ❌NA%</h1></p>
+      <h1>c 09 ❌33%</h1></p>
     </tr>
     <tr>
-      <td>ex00 <br>❌NA%</td>
-      <td>ex01 <br>❌NA%</td>
+      <td>ex00 <br>✅100%</td>
+      <td>ex01 <br>❌0%</td>
       <td>ex02 <br>❌NA%</td>
     </tr>
   </table>
@@ -328,6 +329,7 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 - Pointeur[Utilisation, Logique, str, main] ⏳
 - Math [Iterative, Reursive, Factoriel, Puisance, Nombre Premier]❌
 - Pointeur Avancer[Malloc, free, tableau dans tableau] ❌
+- Preproceseur [Interet, Utilisation, Makefile]
 ----
 
 ## Contributeur
