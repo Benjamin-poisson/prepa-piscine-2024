@@ -6,7 +6,7 @@
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/09 15:52:55 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/03/12 00:44:59 by bpoisson         ###   ########.fr       */
+/*   Updated: 2024/03/12 19:35:46 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,4 +87,3 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	dest = ft_join(size, strs, sep, dest);
 	return (dest);
 }
-
