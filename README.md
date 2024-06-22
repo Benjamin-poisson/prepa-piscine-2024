@@ -122,7 +122,7 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
     </tr>
     <tr>
       <td>ex11 ✅100%</td>
-      <td>ex12 ❌NA%</td> 
+      <td>ex12 ❌0%</td> 
     </tr>
   </table>
 <br>
@@ -142,7 +142,7 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 <br>
   <table>
     <tr>
-      <h1>c 04 ✅83%</h1></p>
+      <h1>c 04 ✅100%</h1></p>
     </tr>
     <tr>
       <td>ex00 <br>✅100%</td>
@@ -150,7 +150,7 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
       <td>ex02 <br>✅100%</td>
       <td>ex03 <br>✅100%</td>
       <td>ex04 <br>✅100%</td>
-      <td>ex05 <br>❌0%</td>
+      <td>ex04 <br>✅100%</td>
     </tr>
   </table>
 <br>

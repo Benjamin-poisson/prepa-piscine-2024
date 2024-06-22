@@ -6,86 +6,89 @@
 /*   By: bpoisson <bpoisson@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/07 19:37:38 by bpoisson          #+#    #+#             */
-/*   Updated: 2024/03/09 15:12:37 by bpoisson         ###   ########.fr       */
+/*   Updated: 2024/06/22 15:08:06 by bpoisson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
-{
-	int	i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
-
-int	gest_error(char *str)
+int	ft_check_error(char *base)
 {
 	int	i;
 	int	j;
+	int	size;
 
 	i = 0;
-	j = 0;
-	while (str[i])
+	size = 0;
+	while (base[size])
+		size++;
+	if (size < 2)
+		return (1);
+	while (base[i])
 	{
 		j = i + 1;
-		while (str[j])
+		if (base[i] == '+' || base[i] == '-')
+			return (1);
+		while (base[j])
 		{
-			if (str[i] == str[j])
+			if (base[i] == base[j])
 				return (1);
 			j++;
 		}
-		if (str[i] == '+' || str[i] == '-' || *str == ' ' || *str == '\n'
-			|| *str == '\t' || *str == 'v' || *str == '\r' || *str == '\f')
-			return (1);
 		i++;
 	}
-	if (ft_strlen(str) == 0 || ft_strlen(str) == 1)
-		return (1);
 	return (0);
 }
 
-int	check_if_in_base(char c, char *base)
+int	ft_is_neg(char *str)
 {
-	int	i;
-
-	i = 0;
-	while (base[i] != c) 
-		i++;
-	return (i);
-}
-
-
-int	ft_atoi_base(char *str, char *base)
-{
-	int	result;
 	int	neg;
-	int	size;
-	int	i;
 
-	i = 0;
-	result = 0;
 	neg = 0;
-	size = ft_strlen(base);
-	if (gest_error(base))
-		return (0);
-	while (*str == ' ' || *str == '\n' || *str == '\t' || *str == 'v'
-		|| *str == '\r' || *str == '\f')
-		str++;
-	while (*str == '-' || *str == '+')
+	while (*str == ' ' || *str == '-' || *str == '+' || *str == '\n'
+		|| *str == '\t' || *str == '\v' || *str == '\r' || *str == '\f')
 	{
 		if (*str == '-')
 			neg++;
 		str++;
 	}
-	while (*str)
+	return (neg % 2);
+}
+
+int	ft_inside_base(char c, char *base)
+{
+	int	i;
+
+	i = 0;
+	while (base[i])
 	{
-		if (!(check_if_in_base(*str, base) == 0))
-			result = result + *str % size;
-		break;
+		if (c == base[i])
+			return (i);
+		i++;
 	}
-	if (neg % 2)
+	return (-1);
+}
+
+int	ft_atoi_base(char *str, char *base)
+{
+	int	i;
+	int	result;
+	int	size;
+
+	result = 0;
+	i = 0;
+	size = 0;
+	while (base[size])
+		size++;
+	while (str[i] == ' ' || str[i] == '-' || str[i] == '+')
+		i++;
+	if (ft_check_error(base))
+		return (0);
+	while (ft_inside_base(str[i], base) != -1)
+	{
+		result = (result * size) + (ft_inside_base(str[i], base));
+		i++;
+	}
+	if (ft_is_neg(str))
 		return (-result);
 	return (result);
 }
+
