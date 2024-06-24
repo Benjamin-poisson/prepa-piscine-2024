@@ -150,7 +150,7 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
       <td>ex02 <br>✅100%</td>
       <td>ex03 <br>✅100%</td>
       <td>ex04 <br>✅100%</td>
-      <td>ex04 <br>✅100%</td>
+      <td>ex05 <br>✅100%</td>
     </tr>
   </table>
 <br>
@@ -326,9 +326,9 @@ git clone https://github.com/Benjamin-poisson/Discovery-piscine-2024
 
 ### Cours
 - Git [Interet, Utilisation]✅
-- Pointeur[Utilisation, Logique, str, main] ⏳
-- Math [Iterative, Reursive, Factoriel, Puisance, Nombre Premier]❌
-- Pointeur Avancer[Malloc, free, tableau dans tableau] ❌
+- Pointeur[Utilisation, Logique, str, main] ✅
+- Math [Iterative, Reursive, Factoriel, Puisance, Nombre Premier]⏳
+- Pointeur Avancer[Malloc, free, tableau dans tableau] ⏳
 - Preproceseur [Interet, Utilisation, Makefile]
 ----
 
